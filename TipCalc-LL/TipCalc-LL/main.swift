@@ -8,7 +8,6 @@
 
 import Foundation
 
-let input = Input()
+let interactive = Interactive()
 
-input.getBillAmount()
-input.getTipPercent()
+interactive.go()
